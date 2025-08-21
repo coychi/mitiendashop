@@ -1,0 +1,202 @@
+*{
+
+box-sizing: border-box;
+
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+   font-family: 'Roboto' ,sans-serif;
+   margin: 0;
+   background-color: #1d1f1e;
+   
+   
+}
+nav
+{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+h1{font-size: 3.5em;}
+h2{font-size: 2.7em;}
+h3{font-size: 2em;}
+p{font-size: 1.25em;}
+ul{list-style: none;}
+li{font-size: 1.25em;}
+
+button
+{
+    font-size: 1.25em;
+    font-weight: bold;
+    padding: 10px 30px;
+    border-radius: 5px; /*bordes redondeados a 5 pixeles*/
+    border: 2px solid rgba(5, 205, 255, 0.3);
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
+    color: #080808;
+    background-color: aqua;
+    
+}
+button:hover{
+    background-color: rgba(0, 35, 231, 0.5);
+}
+.container{
+    max-width: 1400px;
+    margin: auto;
+}
+.color-acento {color: blue;}
+header .logo
+{
+    margin: 0;
+    padding: 25px 30px;
+    font-weight: bold;
+    color: rgb(21, 25, 223);
+    font-size: 1.6em;
+    font-size: 3em;
+
+}
+header .container 
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 25px;
+}
+header nav
+{
+    display:flex;
+    flex-direction: column;
+    text-align: center;
+    padding-bottom: 25px;
+}
+header a
+{
+    padding: 5px 12px;
+    text-decoration: none;
+    font-weight: bold;
+    color: rgb(252, 247, 247);
+}
+header a:hover
+{
+    color: rgb(12, 8, 245);
+}
+#hero
+{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 90vh;
+    background-image:
+    linear-gradient(0deg, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(../img/TIENDA_ONLINE.webp);
+    background-repeat: no-repeat;
+    background-size: cever;
+    background-position: center center;
+}
+#hero h1
+{
+    color: #062bfd;
+}
+#hero button
+{
+    font-size: 1.7em;
+}
+#Inicio .container
+{
+    text-align: center;
+    padding: 200px 12px;
+    color: white;
+}
+#Producto
+{
+    background-color: rgb(19, 18, 18);
+    color: rgb(2, 27, 253);
+    text-align: center;
+}
+
+#Producto .container
+{
+    padding: 150px 12px;
+
+}
+#Producto h2
+{
+    margin-top: 0;
+    font-size: 3.2em;
+}
+#Producto p
+{display: none;}
+#Producto .carta
+{
+    background-position: center center;
+    background-size: cover;
+    padding: 50px;
+    margin: 20px;
+    border-radius: 15px;
+    
+}
+.carta:first-child
+{
+    background-image:
+    linear-gradient(0deg, rgba(0,0,0,0.5), rgba(0,0,0,0.5))
+    ,url("../img/ropa1.webp");
+}
+.carta:nth-child(2)
+{
+    background-image:
+    linear-gradient(0deg, rgba(0,0,0,0.5), rgba(0,0,0,0.5))
+    ,url("../img/curso2.jpg");
+}
+.carta:nth-child(3)
+{
+    background-image:
+    linear-gradient(0deg, rgba(0,0,0,0.5), rgba(0,0,0,0.5))
+    ,url("../img/imag3.webp");
+}
+#caracteristicas .container
+{
+    text-align: center;
+    padding: 250px 12px;
+    color: white;
+
+}
+#caracteristicas li
+{
+    margin: 16px 0px;
+    font-weight: bold;
+}
+#final
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: rgb(30, 30, 30);
+    color: white;
+    height: 80vh;
+}
+#final button
+{
+    font-size: 3vw;
+}
+footer
+{
+    background-color: rgb(230, 230, 230);
+}
+footer p
+{
+    margin: 0;
+    padding: 12px;
+    color: rgb(100, 100, 100);
+}
+footer .container
+{
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
